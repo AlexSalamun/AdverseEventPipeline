@@ -4,11 +4,11 @@
 library(gmp)
 library(stringr)
 # create inputs
-# inputs (api_key, drug_name)
-api_key <- "ed1mpkXXygkykpQZhixOimRIvS7rMRvb2BnR9YQI"
-drug_name <- "lisinopril"
+# inputs (api_key, drug_name, email)
+api_key <- [Enter your personal openFDA Key here]
+drug_name <- [Enter your selected drug]
 drug_name <- str_to_upper(drug_name)
-user_agent <- "alexander.salamun@marquette.edu"
+user_agent <- [Enter an email address for API use]
 
 # Framework of Other Drugs
 checkQuery <- function(x) {
